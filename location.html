@@ -1,0 +1,89 @@
+<html>
+
+    <head>
+		<title> The Green Jacket</title>
+		<!-- Bootstrap Core CSS don’t modify this link -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<!-- Custom CSS don’t modify this link-->
+		<link href="css/YourStyle.css" rel="stylesheet">
+		</head>
+		<body>
+			<div id= "container">
+			<div id= "header">
+				<img class="img-GJ.Logo" src="img/GJ.Logo.PNG" alt="the green jacket">
+				</div>
+				<div id= "navigation">
+
+				<!-- Navigation -->
+   <div class="desktop-nav">
+  
+
+ <div class="container">
+
+<!-- Brand and toggle get grouped for better mobile display -->
+
+<!-- .container -->
+            <a class="navbar-brand" href="index.html">home</a>
+            <a class="navbar-brand" href="menu.html">menu</a>
+            <a class="navbar-brand" href="location.html">location</a>
+            <a class="navbar-brand" href="images.html">gallery</a>
+            <a class="navbar-brand" href="contactus.html">contact</a>
+</div>
+
+
+
+<!-- Brand and toggle get grouped for better mobile display -->
+
+     </nav> <!-- End of Navigation --></div>
+				<div id= "content">
+				<div id= "image">
+					<div class="row">
+
+    <img src="img/GJ.8.jpg" alt="Green Jacket" onclick="openImg(this);" width= "250px" height= "200px">
+
+    <img src="img/GJ.4.jpg" alt="Green Jacket" onclick="openImg(this);" width= "250px" height= "200px">
+
+    <img src="img/GJ.9.jpg" alt="Green Jacket" onclick="openImg(this);" width= "250px" height= "200px">
+    
+</div>
+</div>
+</div>
+				</div>
+				<div id= "main">
+					<h1>where we are</h1>
+					<p>Located in the heart of the city, we hope to have a store close to you in the near future</p>
+					<p>We are currently located in a pop up in <b>Spitalfields Market</b>, hoping to eventually move into stand-alone store starting in Old Street followed by Bank, Aldgate, Monument and Moorgate</p>
+					
+				</div>
+				<div><div id="map">My map will go here</div>
+				<div id="map">
+<script>
+function myMap() {
+    var mapOptions = {
+        center: new google.maps.LatLng(51.5196, -0.0756),
+        zoom:15,
+        mapTypeId: google.maps.MapTypeId.HYBRID
+    }
+var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+}
+</script>
+ <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script> 
+
+</div>
+				<div id= "footer">
+				This is an academic project website and does not offer the products/services advertised in their current form.
+				</div>
+				
+				</body>
+     <!-- End of Page Content -->
+ 
+ 
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+
+
+</html>
